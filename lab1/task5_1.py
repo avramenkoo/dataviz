@@ -13,7 +13,7 @@ index = np.arange(n_groups)
 bar_width = 0.2
 opacity = 1
 
-#Задаємо зміщення кожного бара що б не накладались один на один
+# зміщення кожного бара, щоб не накладались один на один
 br1 = np.arange(len(us))
 br2 = [x + bar_width for x in br1]
 br3 = [x + bar_width for x in br2]

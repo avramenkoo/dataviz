@@ -20,7 +20,7 @@ dx = 0.75 * np.ones_like(z)
 dy = dx.copy()
 dz = Z.flatten()
 
-#додано зміщення що б ось була по центру
+# зміщення, щоб ось була по центру
 y = np.add(y, -0.5 * dy)
 
 fig = plt.figure()
